@@ -1,3 +1,47 @@
+@media screen and (max-width:  1500px)
+{
+	header
+	{
+		flex-direction: column-reverse;
+		height: 400px;
+	}
+
+	section
+	{
+		flex-direction: column;
+	}
+
+	article
+	{
+		margin: 0% 5% 0% 5%;
+	}
+
+	article h2
+	{
+		text-align: center;
+	}
+
+	footer
+	{
+		flex-direction: column;
+		height: 300px;
+	}
+
+	footer h1
+	{
+		text-align: center;
+		padding-top: 60px;
+	}
+
+	footer p
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	
+}
+
 
 header
 {
